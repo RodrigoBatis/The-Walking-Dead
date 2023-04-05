@@ -1,0 +1,32 @@
+#logo {
+   max-width: 30%;
+}
+
+#menu > ul {
+   display: flex;
+   list-style: none;
+   height: 30px;
+   gap: 30px;
+   background-color: black;
+   align-items: center;
+   border-radius: 0px 10px 0px 10px;
+   margin: 10px 0px 30px;
+ }
+ 
+#menu .dropdown-menu a {
+   text-decoration: none;
+   padding: 10px;
+   color: gray;
+   font-family: "Roboto", sans-serif;
+   font-size: 0.6rem;
+   transition: color 0.5s;
+   
+}
+
+#menu .dropdown-menu a:hover{
+   font-size: 0.8rem;
+   color: black;
+   background-color: gray;
+   transition: 0.5s;
+   border-radius: 5px;
+}
